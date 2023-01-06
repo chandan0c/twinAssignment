@@ -47,7 +47,7 @@ function App() {
       if(value){
       let filterData=[]
          filterData=data.filter(e=>{
-          if(e.main_category==value){
+          if(e.main_category===value){
             return true
           }
           return false
@@ -59,15 +59,14 @@ function App() {
     const hadlePriceFilter=(value)=>{
 
       let finalData=[]
-      let flag=true;
-       if(value=="LTH"){
+       if(value==="LTH"){
        finalData=filterData.sort((a,b)=>{
           console.log(a.mrp.mrp,b.mrp.mrp)
            return a.mrp.mrp - b.mrp.mrp
         })
        
        }
-       else if(value=="HTL"){
+       else if(value==="HTL"){
         finalData= filterData.sort((a,b)=>{
          return b.mrp.mrp-a.mrp.mrp
         })
