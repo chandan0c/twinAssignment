@@ -1,0 +1,34 @@
+.sideBar div{
+    background-color:#9cc63d;
+    color:white ;
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 7px;
+    font-size: 17px;
+    width: 80%;
+}
+.sideBar select{
+    padding: 6px;
+    font-size: 15px;
+}
+.sideBar{
+    display: flex;
+}
+
+.category{
+    margin: auto;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+.sideBar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sideBar div{
+   margin: auto;
+}
+
+}

@@ -1,0 +1,56 @@
+
+.singlePage{
+    margin: 0px  20%;
+    display: flex;
+     
+}
+.singlePage img{
+    width: 75%;
+    height: auto;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.singlePage div{
+    margin-top: 60px;
+}
+.singlePage div h5{
+    font-size: 30px;
+}
+.singlePage div h3{
+    font-size: 25px;
+}
+.singlePage div h4{
+    font-size: 25px;
+}
+.singlePage div h6{
+    font-size: medium;
+    margin-top: -30px;
+}
+.singlePage div button{
+    padding: 10px 10px;
+    margin: 2px;
+}
+.singlePage .cartBtn{
+    background-color:rgb(121, 150, 41);
+    border-color: rgb(119, 153, 26);
+}
+.singlePage img[alt]{
+    font-size:30px;
+    text-align: center;
+   
+}
+@media only screen and (max-width: 300px) {
+    .singlePage{
+        margin: 0px  5%;
+        
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .singlePage{
+        margin: 0px  0%;
+        
+    }
+  }
